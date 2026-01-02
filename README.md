@@ -9,8 +9,7 @@ An intelligent waste classification system powered by deep learning. This projec
 
 ## Demo
 
-<!-- Add your demo screenshot or GIF here -->
-<!-- ![Demo](assets/demo.gif) -->
+![Waste Sorting Demo](assets/demo.png)
 
 **[Try the Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/dianbrown/waste-sorting)**
 
@@ -66,9 +65,21 @@ The model was trained on the [Garbage Classification Dataset](https://www.kaggle
 
 ## Results
 
-<!-- Add your training metrics here -->
-<!-- ![Training History](assets/training_history.png) -->
-<!-- ![Confusion Matrix](assets/confusion_matrix.png) -->
+The model achieved excellent performance on the test dataset:
+
+| Metric | Value |
+|--------|-------|
+| **Validation Accuracy** | 99.87% |
+| **Validation Loss** | 0.0063 |
+| **Test Accuracy** | 99.88% |
+
+### Sample Dataset Images
+
+![Sample Dataset Images](assets/sample_dataset_images.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](assets/confusion_matrix.png)
 
 ## Getting Started
 
@@ -110,7 +121,8 @@ waste-sorting/
 │   ├── training_history.png        # Training curves
 │   └── confusion_matrix.png        # Model evaluation
 └── Notebook/
-    └── GarbageTraining.ipynb       # Training notebook
+    ├── GarbageTraining.ipynb       # Training notebook
+    ├── garbagetraining.png         # Training notebook (python file version)
 ```
 
 ## Usage
